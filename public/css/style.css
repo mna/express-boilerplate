@@ -1,0 +1,6 @@
+/*
+	Just an example, could be an Express-supported stylesheet preprocessor source file (LESS, Stylus, etc.)
+*/
+body {
+	font-family: Arial, "MS Trebuchet", sans-serif;
+}
