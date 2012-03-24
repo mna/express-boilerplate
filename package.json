@@ -1,7 +1,7 @@
 {
     "name": "express-boilerplate"
   , "description": "Example of a suggested structure for a Web application using Express."
-  , "version": "0.1.0"
+  , "version": "0.2.0"
   , "private": true
   , "author": "Martin Angers"
   , "dependencies": {
