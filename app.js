@@ -1,10 +1,10 @@
+// First extend the express server's prototype
+require('./lib/config');
+
 var debug = require('debug')('app'),
 	server = require('./lib/server'),
 	db = require('./lib/db'),
 	handler = require('./lib/handler')(db);
-
-// Configure the server
-require('./lib/config')(__dirname, server);
 
 // Setup routes
 require('./lib/router')(server, handler);
