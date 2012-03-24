@@ -26,7 +26,7 @@ Obviously you need node.js and npm. `git clone` the repository, then run `npm in
 
 ## Dependency injection
 
-This initial version uses a very basic dependency injection pattern (arguments to the function exposed with `module.exports` in the target module). Other ways will be discussed in a future article on [my blog][blog].
+This initial version (v0.1.0) uses a very basic dependency injection pattern (arguments to the function exposed with `module.exports` in the target module). Other ways will be discussed in a future article on [my blog][blog].
 
 ## Use of "debug"
 
