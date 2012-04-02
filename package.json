@@ -1,7 +1,7 @@
 {
     "name": "express-boilerplate"
   , "description": "Example of a suggested structure for a Web application using Express."
-  , "version": "0.2.0"
+  , "version": "0.3.0"
   , "private": true
   , "author": "Martin Angers"
   , "dependencies": {
@@ -9,6 +9,7 @@
     , "express": "2.5.x"
     , "jade": "0.20.x"
     , "mongoose": "2.5.x"
+    , "implementjs": "0.1.x"
   }
   , "devDependencies": {
       "mocha": "0.14.x"
