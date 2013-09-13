@@ -5,20 +5,20 @@
   , "private": true
   , "author": "Martin Angers"
   , "dependencies": {
-      "debug": "0.5.x"
-    , "express": "2.5.x"
-    , "jade": "0.20.x"
-    , "mongoose": "2.5.x"
+      "debug": "0.x"
+    , "express": "3.x"
+    , "jade": "0.x"
+    , "mongoose": "3.x"
     , "implementjs": "0.1.x"
   }
   , "devDependencies": {
-      "mocha": "0.14.x"
+      "mocha": "*"
   }
   , "scripts": {
       "test": "make test"
     , "start": "make"
   }
   , "engines": { 
-    "node": "0.6.x"
+    "node": "*"
   }
 }
