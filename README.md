@@ -13,6 +13,7 @@ This boilerplate is an ongoing experiment on how to structure node.js and Expres
 *   **simple-DI** : This is the basic, easiest way to do it while maintaining the benefits of decoupling the modules. It uses arguments to inject dependencies into the module (quite like "constructor based" DI), and the *app.js* file is the assembler.
 *   **prototype-extension** : This branch makes use of the prototype nature of javascript to "inject a dependency" (though this is not usually seen as a DI pattern, but it does achieve DI's goals) via an extension of the prototype, so that the *config* module gets injected into the *server* module. The config module extends Express' `HTTPServer` with a `applyConfiguration()` function, and the server module simply calls this function. It will only work with Express 2.x (will need some tweaking for Express 3.x). See those modules for actual code, which explains it much better than this text...
 *   **implementjs** : Not a new dependency injection method *per se*, but I added the library [implement.js][impl] to validate the interface of injected dependencies.
+*   **express3** : an example using Express version 3, thanks to 92bondstreet for the PR.
 *   **master** : The master branch is the current development branch, so whatever next pattern I'm working on, it will be in master.
 
 ## Structure
